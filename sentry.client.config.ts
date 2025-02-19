@@ -9,7 +9,12 @@ Sentry.init({
 
   // Add optional integrations for additional features
   integrations: [
-    Sentry.replayIntegration(),
+    Sentry.replayIntegration({
+      unblock: [".sentry-unblock, [data-sentry-unblock]"],
+      unmask: [".sentry-unmask, [data-sentry-unmask]"],
+    }),
+    Sentry.replayCanvasIntegration(),
+    ,
     Sentry.feedbackIntegration({
       // Additional SDK configuration goes in here, for example:
       colorScheme: "system",
