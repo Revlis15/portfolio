@@ -21,7 +21,7 @@ const Approach = () => {
                 containerClassName="bg-emerald-900"
                 />
             </Card>
-            <Card title="Nisha is Munni" 
+            <Card title="Development & Progress Update" 
                 description="Once we agree on the plan, I cue my lofi playlist and dive into
                             coding. From initial sketches to polished code, I keep you updated
                             every step of the way."
@@ -36,7 +36,7 @@ const Approach = () => {
                 dotSize={2}
                 />
             </Card>
-            <Card title="Munni is Aditi" 
+            <Card title="Development & Launch" 
                 description="This is where the magic happens! Based on the approved design, 
                             I'll translate everything into functional code, building your website
                             from the ground up."
